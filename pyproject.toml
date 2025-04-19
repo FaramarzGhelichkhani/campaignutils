@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "campaignutils"
+version = "0.1.0"
+description = ""
+authors = ["Faramarz <f.ghelichkhani@emofid.com>"]
+readme = "README.md"
+packages = [{ include = "campaignutils" }] 
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+scipy = "^1.14.1"
+pytest = "^8.3.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+xlsxwriter = "^3.2.0"
+#ambdutils = {git = "https://f.ghelichkhani:glpat-S3E5YNszCML3JyZ1sNcf@git.mofid.dev/segmentation/ambdutils.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
